@@ -37,7 +37,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat " rename \"${WORKSPACE}\\target\" serenity_${timestamp}"
+                        bat " rename \"${WORKSPACE}\\target\"serenity_${timestamp}"
                         echo 'Backup de evidencias realizado con exito'
 
                         publishHTML([allowMissing         : false,
