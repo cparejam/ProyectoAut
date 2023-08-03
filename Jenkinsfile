@@ -45,7 +45,7 @@ pipeline {
                                      keepAll              : true,
                                      reportDir            : "${WORKSPACE}//serenity_${timestamp}",
                                      reportFiles          : 'index.html',
-                                     reportName           : 'Evidencias Screenplay',
+                                     reportName           : 'EvidenciasScreenplay',
                                      reportTitles         : 'Proyecto Serenity  SCREEMPLAY'])
                         echo 'Reporte Html realizado con exito'
                     } catch (e) {

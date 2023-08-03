@@ -1,5 +1,5 @@
 # language: es
-# Autor: Juan Felipe Londoño Carmona.
+# Autor: Carolina Pareja Mejia
 
 @Regresion
 @HistoriaDeUsuario1
